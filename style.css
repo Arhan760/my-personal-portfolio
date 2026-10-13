@@ -203,3 +203,41 @@ html {
         margin: 6px;
     }
 }
+/* Fix excessive spacing */
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+h1 {
+    margin: 10px 0 20px;
+}
+
+h2 {
+    margin: 20px 0 10px;
+}
+
+p {
+    margin: 8px 0;
+}
+
+ul {
+    margin: 8px 0;
+    padding-left: 25px;
+}
+
+nav {
+    margin-bottom: 20px;
+    padding: 12px;
+}
+
+nav a {
+    margin: 0 8px;
+}
+
+section {
+    padding: 15px;
+    margin: 15px 0;
+}
