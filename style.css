@@ -1,39 +1,116 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Arhan's Portfolio</title>
-</head>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-<body>
+body {
+    background: #080808;
+    color: white;
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+}
 
-    <h1>Hello, I'm Arhan Ansari!</h1>
+h1, h2 {
+    color: #d4af37;
+}
 
-    <h2>About Me</h2>
+h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
 
-    <p>
-        I am a BBA student interested in
-        Business Management, Marketing and Technology.
-    </p>
+h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
 
-    <h2>My Education</h2>
+p {
+    color: #cccccc;
+    font-size: 17px;
+}
 
-    <p>Bachelor of Business Administration (BBA)</p>
+section {
+    padding: 70px 10%;
+    border-bottom: 1px solid #292929;
+}
 
-    <h2>My Interests</h2>
+header {
+    background: #111;
+    padding: 20px 10%;
+    border-bottom: 1px solid #d4af37;
+}
 
-    <ul>
-        <li>Marketing</li>
-        <li>Business Management</li>
-        <li>Digital Skills</li>
-        <li>Technology</li>
-    </ul>
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
-    <h2>My Goal</h2>
+nav h2 {
+    margin: 0;
+}
 
-    <p>
-        I want to develop my professional skills
-        and explore new opportunities.
-    </p>
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
 
-</body>
-</html>
+nav a:hover {
+    color: #d4af37;
+}
+
+#home {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    background: linear-gradient(45deg, #b8860b, #ffd700);
+    color: black;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.card {
+    background: #151515;
+    border: 1px solid #8b7020;
+    padding: 25px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+    border-color: gold;
+}
+
+footer {
+    background: #111;
+    text-align: center;
+    padding: 25px;
+    color: #d4af37;
+}
+
+@media(max-width: 768px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    section {
+        padding: 45px 7%;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
