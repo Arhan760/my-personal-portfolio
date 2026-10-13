@@ -133,3 +133,73 @@ nav a {
 nav a:hover {
     color: white;
 }
+/* Modern Blue-Purple Portfolio Design */
+
+body {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 25px;
+}
+
+/* Navigation Bar */
+nav {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 18px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+nav a {
+    color: #c4b5fd;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 12px #a78bfa;
+}
+
+/* Headings */
+h1, h2 {
+    color: #c4b5fd;
+    text-shadow: 0 0 12px rgba(167, 139, 250, 0.4);
+}
+
+/* Sections */
+section {
+    background: rgba(255, 255, 255, 0.06);
+    padding: 22px;
+    margin: 25px 0;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* Lists */
+li {
+    margin: 8px 0;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Mobile Friendly */
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px;
+    }
+}
